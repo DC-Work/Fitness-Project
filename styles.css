@@ -1,0 +1,105 @@
+body, html{
+  margin:0;
+  padding:0;
+}
+header{
+  width: 100%;
+  height:70px;
+  background-color: #282828;
+}
+h1{
+  position: absolute;
+  padding: 3px;
+  float:left;
+  margin-left:2%;
+  margin-top: 10px;
+  color:#c40000;
+}
+span{
+  color: #ffffff;
+}
+ul{
+  float:right;
+  margin-top: 8px;
+}
+li{
+  display: inline-block;
+  padding:15px 30px;
+}
+a{
+  text-align: center;
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a:hover{
+  color:#c40000;
+}
+footer{
+  background-color: #282828;
+  position:absolute;
+  left:0;
+  right: 0;
+  bottom: 0;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 0;
+}
+body{
+  background-image: url("gym_index.jpeg"),url("gym_index2.jpeg"),url("gym_index3.jpeg");
+  background-repeat: no-repeat;
+  background-position: top left,top right;
+  background-color: #282828;
+  opacity: .75;
+}
+#beginH,#beginA{
+  text-align: center;
+  width: 30%;
+}
+#beginH{
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color:#c40000;
+  font-variant: small-caps;
+}
+#beginA{
+  font-size: 20px;
+  line-height: 125%;
+}
+.begin{
+  text-align: center;
+  margin-left: 41%;
+  margin-top: 3%;
+  color: #ffffff;
+}
+table{
+  text-align: center;
+  border: 2px solid #c40000;
+  margin-top: 50px;
+  background-color:#282828;
+}
+.tTop{
+  color:#ffffff;
+  border:2px solid #c40000;
+  text-align: center;
+}
+td h4{
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 4px solid #c40000;
+}
+td, tr{
+  border:1px solid #c40000;
+  color: #ffffff;
+}
+h5{
+  font-size: 4em;
+  text-align: center;
+  font-variant: small-caps;
+}
+form, .pinfo, .cbox, .ampm{
+  color: #ffffff;
+}
+.cbox{
+  text-align: justify;
+}
